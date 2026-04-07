@@ -1,0 +1,13 @@
+<!-- public/favicon.svg -->
+<svg width="64" height="64" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ps-bg" x1="96" y1="72" x2="420" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66C2FF"/>
+      <stop offset="0.52" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect x="80" y="80" width="352" height="352" rx="88" fill="url(#ps-bg)"/>
+  <path d="M223 140H289C345 140 384 174 384 225C384 277 345 311 289 311H270V378C270 390 260 400 248 400H214C202 400 192 390 192 378V171C192 154 206 140 223 140ZM270 250H284C305 250 320 240 320 225C320 210 305 201 284 201H270V250Z" fill="white"/>
+  <path d="M300.5 262C306.5 256.7 315.7 257.3 321 263.3C326.3 269.3 325.7 278.5 319.7 283.8L259.4 337.3C253.8 342.3 245.3 342.3 239.7 337.3L202.3 304.1C196.3 298.8 195.7 289.6 201 283.6C206.3 277.6 215.5 277 221.5 282.3L249.5 307.2L300.5 262Z" fill="white"/>
+</svg>

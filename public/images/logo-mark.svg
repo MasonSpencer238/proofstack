@@ -1,0 +1,43 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ps-bg" x1="96" y1="72" x2="420" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#66C2FF"/>
+      <stop offset="0.52" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+
+    <linearGradient id="ps-stack-1" x1="144" y1="208" x2="276" y2="208" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFD9FF" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#8DB8FF" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="ps-stack-2" x1="144" y1="258" x2="298" y2="258" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#9FC5FF" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#78A8FF" stop-opacity="0.16"/>
+    </linearGradient>
+
+    <linearGradient id="ps-stack-3" x1="144" y1="308" x2="320" y2="308" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DAFFF" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#5E90FF" stop-opacity="0.14"/>
+    </linearGradient>
+
+    <filter id="ps-shadow" x="56" y="56" width="400" height="400" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="22" stdDeviation="24" flood-color="#1D4ED8" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#ps-shadow)">
+    <rect x="80" y="80" width="352" height="352" rx="88" fill="url(#ps-bg)"/>
+  </g>
+
+  <!-- stack layers -->
+  <path d="M144 208L228 156C235 152 244 152 251 156L276 170L192 224C185 228 176 228 169 224L144 208Z" fill="url(#ps-stack-1)"/>
+  <path d="M144 258L244 192C251 188 260 188 267 192L298 210L192 276C185 280 176 280 169 276L144 258Z" fill="url(#ps-stack-2)"/>
+  <path d="M144 308L260 228C267 224 276 224 283 228L320 250L192 328C185 332 176 332 169 328L144 308Z" fill="url(#ps-stack-3)"/>
+
+  <!-- centred P -->
+  <path d="M215 138H281C336 138 372 171 372 220C372 270 336 303 281 303H262V376C262 388 252 398 240 398H210C198 398 188 388 188 376V165C188 150 200 138 215 138ZM262 245H276C296 245 310 236 310 220C310 204 296 196 276 196H262V245Z" fill="white"/>
+
+  <!-- centred check -->
+  <path d="M290 258C296 252.8 305.2 253.4 310.4 259.4C315.6 265.4 315 274.6 309 279.8L256 326.5C250.4 331.4 242 331.4 236.4 326.5L203.6 297.6C197.6 292.4 197 283.2 202.2 277.2C207.4 271.2 216.6 270.6 222.6 275.8L246.2 296.7L290 258Z" fill="white"/>
+</svg>
